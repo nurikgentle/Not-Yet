@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Restaurant WebSite</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https:/unpkg.com/swiper@7/swiper-bundle.min.css">
+</head>
+<body>
+<!-- HEADER -->
+ <section class="header">
+    <a href="#" class="logo"><i class="fas fa-utensils"></i> food. </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#food">food</a>
+        <a href="#gallery">gallery</a>
+        <a href="#menu">menu</a>
+        <a href="#order">order</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+ </section>
+    <!-- HOME SECTION -->
+    <section class="home"id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide" style="background: url(images/home-slide-1.jpg) no-repeat;">
+                    <div class="content">
+                        <span>outstanding</span>
+                        <h3>delicious cooking</h3>
+                        <a href="#" class="btn">get started</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat;">
+                    <div class="content">
+                        <span>outstanding</span>
+                        <h3>morning moment</h3>
+                        <a href="#" class="btn">get started</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/home-slide-3.jpg) no-repeat;">
+                    <div class="content">
+                        <span>outstanding</span>
+                        <h3>authentic kitchen</h3>
+                        <a href="#" class="btn">get started</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+    </section>
+ 
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <diV class="image">
+            <img src="images/about-img.png" alt=""> 
+        </diV>
+
+        <div class="content">
+            <h3 class="title">welcome to our restaurant</h3>
+            <p>Everyone knows how to copy text — simply highlight the subject with your cursor and do CTRL +C. Simple, Right? But what if you want to copy text from where it’s not allowed? Like a right-click disable website, a write-protected PDF, a Windows error dialog box or the comments from YouTube’s official Android app.</p>
+            <a href="#" class="btn">read more</a>
+            <div class="icons-container">
+                <div class="icons">
+                    <img src="images/about-icon-1.png" alt="">
+                    <h3>quality food</h3>
+                </div>
+
+                <div class="icons">
+                    <img src="images/about-icon-2.png" alt="">
+                    <h3>food & drinks</h3>
+                </div>
+
+                <div class="icons">
+                    <img src="images/about-icon-3.png" alt="">
+                    <h3>expert chefs</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOD -->
+    <section class="food" id="food">
+        <div class="heading">
+            <span>popular dishes</span>
+            <h3>our delicious food</h3>
+        </div>
+
+        <div class="swiper food-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide" data-name="food-1">
+                    <img src="images/food-img-1.png" alt="">
+                    <h3>delicious food</h3>
+                    <div class="price">$49.99</div>
+                </div>
+
+                <div class="swiper-slide slide" data-name="food-2">
+                    <img src="images/food-img-2.png" alt="">
+                    <h3>delicious food</h3>
+                    <div class="price">$49.99</div>
+                </div>
+
+                <div class="swiper-slide slide" data-name="food-3">
+                    <img src="images/food-img-3.png" alt="">
+                    <h3>delicious food</h3>
+                    <div class="price">$49.99</div>
+                </div>
+
+                <div class="swiper-slide slide" data-name="food-4">
+                    <img src="images/food-img-4.png" alt="">
+                    <h3>delicious food</h3>
+                    <div class="price">$49.99</div>
+                </div>
+
+                <div class="swiper-slide slide" data-name="food-5">
+                    <img src="images/food-img-5.png" alt="">
+                    <h3>delicious food</h3>
+                    <div class="price">$49.99</div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+        <!-- FOOD PREVIEW SECTION -->
+        <section class="food-preview-container">
+
+            <div id="close-preview" class="fas fa-times"></div>
+
+            <div class="food-preview" data-target="food-1">
+                <img src="images/food-img-1.png" alt="">
+                <h3>delicious food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Everyone knows how to copy text — simply highlight the subject with your cursor and do CTRL +C. Simple, Right? But what if you want </p>
+                <div class="price">$49.99</div>
+                <a href="#" class="btn">buy now</a>
+            </div>
+
+            <div class="food-preview" data-target="food-2">
+                <img src="images/food-img-2.png" alt="">
+                <h3>delicious food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Everyone knows how to copy text — simply highlight the subject with your cursor and do CTRL +C. Simple, Right? But what if you want </p>
+                <div class="price">$49.99</div>
+                <a href="#" class="btn">buy now</a>
+            </div>
+
+            <div class="food-preview" data-target="food-img-3">
+                <img src="images/food-img-3.png" alt="">
+                <h3>delicious food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Everyone knows how to copy text — simply highlight the subject with your cursor and do CTRL +C. Simple, Right? But what if you want </p>
+                <div class="price">$49.99</div>
+                <a href="#" class="btn">buy now</a>
+            </div>
+
+            <div class="food-preview" data-target="food-img-4">
+                <img src="images/food-img-4.png" alt="">
+                <h3>delicious food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Everyone knows how to copy text — simply highlight the subject with your cursor and do CTRL +C. Simple, Right? But what if you want </p>
+                <div class="price">$49.99</div>
+                <a href="#" class="btn">buy now</a>
+            </div>
+
+            <div class="food-preview" data-target="food-6">
+                <img src="images/food-img-5.png" alt="">
+                <h3>delicious food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Everyone knows how to copy text — simply highlight the subject with your cursor and do CTRL +C. Simple, Right? But what if you want </p>
+                <div class="price">$49.99</div>
+                <a href="#" class="btn">buy now</a>
+            </div>
+        </section>
+
+        <!-- GALLERY -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html
